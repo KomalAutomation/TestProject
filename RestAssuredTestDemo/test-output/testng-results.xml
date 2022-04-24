@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6834" started-at="2022-04-24T20:16:12Z" finished-at="2022-04-24T20:16:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6834" started-at="2022-04-24T20:16:12Z" finished-at="2022-04-24T20:16:19Z">
+      <class name="com.github.api.PostCalls">
+        <test-method status="PASS" signature="test_createNewRepo(java.lang.String, java.lang.Boolean)[pri:0, instance:com.github.api.PostCalls@490ab905]" name="test_createNewRepo" duration-ms="5627" started-at="2022-04-24T22:16:12Z" data-provider="DataForPost" finished-at="2022-04-24T22:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[repoTest5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createNewRepo -->
+        <test-method status="PASS" signature="test_createNewRepo(java.lang.String, java.lang.Boolean)[pri:0, instance:com.github.api.PostCalls@490ab905]" name="test_createNewRepo" duration-ms="1144" started-at="2022-04-24T22:16:18Z" data-provider="DataForPost" finished-at="2022-04-24T22:16:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[repoTest6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createNewRepo -->
+      </class> <!-- com.github.api.PostCalls -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
