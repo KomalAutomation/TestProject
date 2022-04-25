@@ -48,7 +48,7 @@ static String url="https://api.github.com";
 		
 		given()
 			.auth()
-			.oauth2("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").
+			.oauth2("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").
 		when().
 			get("/user/repos").
 		then().
@@ -67,7 +67,7 @@ public void listIssuesOfAuthenticateduser(){
 		
 		given()
 			.auth()
-			.oauth2("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").
+			.oauth2("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").
 		when().
 			get("/issues").
 		then().
